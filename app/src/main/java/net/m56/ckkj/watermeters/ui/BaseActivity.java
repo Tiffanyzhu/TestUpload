@@ -31,6 +31,7 @@ public abstract class BaseActivity extends Activity  implements  DialogMaker.Dia
         ActivityStack.getInstance().addActivity(this);
 
         DisplayMetrics dm = getResources().getDisplayMetrics();
+
         screenW = dm.widthPixels;
         screenH = dm.heightPixels;
     }
