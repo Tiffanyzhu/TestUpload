@@ -6,6 +6,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.view.inputmethod.InputMethodManager;
@@ -34,6 +35,7 @@ public abstract class BaseActivity extends Activity  implements  DialogMaker.Dia
 
         screenW = dm.widthPixels;
         screenH = dm.heightPixels;
+        Log.e("screenW==", String.valueOf(screenW));
     }
 
 
